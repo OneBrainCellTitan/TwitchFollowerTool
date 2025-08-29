@@ -502,7 +502,7 @@ namespace TwitchFollowerTool_WPF
 
     public static class TwitchAuthService
     {
-        public const string ClientId = "4u90ix62rwav0debvu1qp2ldixu9ml";
+        public const string ClientId = "ВНЕСІТЬ_СВІЙ_CLIENTID";
         private const string RedirectUrl = "http://localhost:3000/";
 
         public static async Task<string?> GetAccessTokenAsync()
@@ -604,3 +604,4 @@ namespace TwitchFollowerTool_WPF
         }
     }
 }
+
